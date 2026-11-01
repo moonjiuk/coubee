@@ -1,0 +1,90 @@
+{
+  "checked_on": "2026-11-01",
+  "scope": "Source repository main-branch snapshots used for this project archive",
+  "repositories": [
+    {
+      "repository": "https://github.com/lg-cns-team-4-retail/coubee-be-eureka.git",
+      "branch": "main",
+      "commit": "4c67a37518784174212157ffc0c8bdf148056c86",
+      "last_commit_date": "2025-07-22"
+    },
+    {
+      "repository": "https://github.com/lg-cns-team-4-retail/coubee-be-gateway.git",
+      "branch": "main",
+      "commit": "05104189fa44b326f357588040ec1a2bc69182c5",
+      "last_commit_date": "2025-09-11"
+    },
+    {
+      "repository": "https://github.com/lg-cns-team-4-retail/coubee-be-notification.git",
+      "branch": "main",
+      "commit": "ac44b9879e83d97fc97f11a03f97fca9adc33e7c",
+      "last_commit_date": "2025-09-11"
+    },
+    {
+      "repository": "https://github.com/lg-cns-team-4-retail/coubee-be-order.git",
+      "branch": "main",
+      "commit": "9c690136639670ffc9dd94e299d717576a7c11cc",
+      "last_commit_date": "2025-09-11"
+    },
+    {
+      "repository": "https://github.com/lg-cns-team-4-retail/coubee-be-product.git",
+      "branch": "main",
+      "commit": "73c5803fcc2c1af41a8a1183474295420a793635",
+      "last_commit_date": "2025-09-15"
+    },
+    {
+      "repository": "https://github.com/lg-cns-team-4-retail/coubee-be-report.git",
+      "branch": "main",
+      "commit": "8fbc0ed9132a41d6b67ae86a8b85e1b730d32c28",
+      "last_commit_date": "2025-08-13"
+    },
+    {
+      "repository": "https://github.com/lg-cns-team-4-retail/coubee-be-store.git",
+      "branch": "main",
+      "commit": "ecacf2919c6b562468c0947e3470bc26eb4bf9af",
+      "last_commit_date": "2025-09-11"
+    },
+    {
+      "repository": "https://github.com/lg-cns-team-4-retail/coubee-be-user.git",
+      "branch": "main",
+      "commit": "63638e8e6429dbd33b7e2181cf888b7c266c6844",
+      "last_commit_date": "2025-09-11"
+    },
+    {
+      "repository": "https://github.com/lg-cns-team-4-retail/coubee-fe-app.git",
+      "branch": "main",
+      "commit": "9bbc2a36042c5d26cbca2b7ae2885cf377c9a480",
+      "last_commit_date": "2025-09-14"
+    },
+    {
+      "repository": "https://github.com/lg-cns-team-4-retail/coubee-fe-superadmin.git",
+      "branch": "main",
+      "commit": "d50c9d0e40db17f481609f78f908a3f25759132c",
+      "last_commit_date": "2025-09-11"
+    },
+    {
+      "repository": "https://github.com/lg-cns-team-4-retail/coubee-fe-web.git",
+      "branch": "main",
+      "commit": "c521b61a3f4acf8f65c7e8077611ae6b879eafa8",
+      "last_commit_date": "2025-09-12"
+    },
+    {
+      "repository": "https://github.com/lg-cns-team-4-retail/coubee-infra-notification-lambda.git",
+      "branch": "main",
+      "commit": "1ba3354a1c36e51a3bcc9b045fdaa7b7e26ee5ce",
+      "last_commit_date": "2025-09-11"
+    },
+    {
+      "repository": "https://github.com/lg-cns-team-4-retail/coubee-infra-terraform.git",
+      "branch": "main",
+      "commit": "137a6c4cb48c51366ae01ad0fa87af9e718c950c",
+      "last_commit_date": "2025-09-12"
+    },
+    {
+      "repository": "https://github.com/lg-cns-team-4-retail/coubee-personalize.git",
+      "branch": "main",
+      "commit": "954e42a27c0636e717172f5250cd4ed6e56f791a",
+      "last_commit_date": "2025-09-12"
+    }
+  ]
+}
