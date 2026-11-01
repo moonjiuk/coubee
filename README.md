@@ -156,14 +156,6 @@ JMeter로 부하 시나리오를 설계하고 **p95 응답 시간·JVM Heap·CPU
 
 [실험 과정·원본 리포트](docs/performance.md)
 
-## 📌 저장소 및 실행 안내
-
-이 저장소는 프로젝트 소개와 담당 작업을 모은 아카이브입니다. 실행 코드는 **프론트엔드 3개·백엔드 8개·인프라 및 연동 3개**의 원본 저장소에서 확인할 수 있습니다.
-
-- [역할별 원본 저장소 14개](docs/repositories.md)
-- [확인한 코드 버전](docs/repo-snapshot.json)
-- [팀 프로젝트 소개](https://github.com/lg-cns-team-4-retail/.github/blob/main/profile/README.md)
-
-판매자·운영자 웹의 `npm ci`와 `npm run build` 성공을 확인했습니다. 앱·백엔드 실행과 클라우드 재배포는 진행하지 않았습니다.
+---
 
 [이미지 출처](docs/credits.md)
