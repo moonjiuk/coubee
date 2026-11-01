@@ -2,18 +2,21 @@
 
 [← 프로젝트 소개](../README.md)
 
-## CI/CD와 인프라
+## CI/CD · 빌드와 이미지 배포
 
 여러 백엔드 서비스를 공통 절차로 빌드하고 컨테이너 이미지로 배포할 수 있도록 Jenkins 설정과 팀원용 가이드를 정리했습니다. 초기 도구 설정부터 자격 증명 등록, 배포 환경 연결, 오류 대응까지 팀에서 반복해서 사용할 수 있는 절차를 문서화했습니다.
 
 원본 코드에는 7개 백엔드 서비스의 Jenkins 파이프라인이 남아 있습니다. 버전 설정 → 애플리케이션 빌드 → Docker 이미지 빌드 → 이미지 푸시의 단계로 구성됩니다.
 
 - [Gateway 파이프라인](https://github.com/lg-cns-team-4-retail/coubee-be-gateway/tree/main/.jenkins)
-- [Terraform 인프라 코드](https://github.com/lg-cns-team-4-retail/coubee-infra-terraform)
+
+## 인프라 · 배포 환경 구성
+
+[Terraform 인프라 코드](https://github.com/lg-cns-team-4-retail/coubee-infra-terraform)
 
 Terraform·EKS·ArgoCD 구성과 운영 절차도 정리했습니다. 인프라 코드에는 네트워크, EKS, ECR, DB·캐시, 알림 처리 자원이 포함되어 있습니다. 이는 팀 공동 결과물이며, 개인 담당 내용은 배포 환경 구성과 관련 절차 문서화입니다.
 
-## 핵심 사용자 흐름 자동화
+## 테스트 자동화 · 로그인과 상품 등록
 
 Playwright로 판매자 웹의 로그인과 상품 등록을 검증했습니다.
 
@@ -24,7 +27,7 @@ Playwright로 판매자 웹의 로그인과 상품 등록을 검증했습니다.
 
 프로젝트 당시 Chromium 실행 결과와 화면 기록을 바탕으로 정리했습니다. 현재 원본 저장소에 재실행 가능한 테스트 파일이 정리되어 있지 않아, 이번 아카이브에서 테스트를 재실행하지는 않았습니다.
 
-## 성능 테스트와 원인 분석
+## 성능 검증 · 부하 테스트와 병목 분석
 
 JMeter로 부하 시나리오와 응답 기준을 설계하고, p95 지연·JVM Heap·CPU를 관찰했습니다. 네트워크, 레플리카, 노드 수를 바꾸며 인프라 증설이 지연에 미치는 영향을 확인했습니다.
 
